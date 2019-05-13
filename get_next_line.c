@@ -6,14 +6,14 @@
 /*   By: mcomet <mcomet@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/25 16:17:58 by mcomet            #+#    #+#             */
-/*   Updated: 2019/05/01 01:52:30 by mcomet           ###   ########.fr       */
+/*   Updated: 2019/05/13 18:06:16 by mcomet           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
 #include "libft/libft.h"
 
-char	*read_line(const int fd, char **str)
+char	*read_line(int fd, char **str)
 {
 	char	buff[BUFF_SIZE + 1];
 	int		size;
@@ -34,9 +34,9 @@ char	*read_line(const int fd, char **str)
 	return (str[fd]);
 }
 
-int	get_next_line(const int fd, char **line)
+int		get_next_line(const int fd, char **line)
 {
-	static char	**str;
+	static char	*str[1000];
 	t_line		list;
 
 	if (!(str[fd] = read_line(fd, str)) || !line)
@@ -54,7 +54,7 @@ int	get_next_line(const int fd, char **line)
 	{
 		if (!(*line = ft_strdup(str[fd])))
 			return (-1);
-		free (str[fd]);
+		free(str[fd]);
 		str[fd] = NULL;
 		if (*line[0] == '\0')
 			return (0);
