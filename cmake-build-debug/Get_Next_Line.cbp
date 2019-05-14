@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Get_Next_Line"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/mcomet/get_next_line/Get_Next_Line/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mcomet/get_next_line/Get_Next_Line/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mcomet/get_next_line/Get_Next_Line/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mcomet/get_next_line/Get_Next_Line/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mcomet/get_next_line/Get_Next_Line/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/mcomet/get_next_line/Get_Next_Line/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mcomet/get_next_line/Get_Next_Line/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mcomet/get_next_line/Get_Next_Line/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mcomet/get_next_line/Get_Next_Line/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mcomet/get_next_line/Get_Next_Line/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/mcomet/get_next_line/Get_Next_Line/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mcomet/get_next_line/Get_Next_Line/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mcomet/get_next_line/Get_Next_Line/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mcomet/get_next_line/Get_Next_Line/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mcomet/get_next_line/Get_Next_Line/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Get_Next_Line">
+				<Option output="/Users/mcomet/get_next_line/Get_Next_Line/cmake-build-debug/Get_Next_Line" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mcomet/get_next_line/Get_Next_Line/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/mcomet/get_next_line/Get_Next_Line/."/>
+					<Add directory="/Users/mcomet/get_next_line/Get_Next_Line/libft"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mcomet/get_next_line/Get_Next_Line/cmake-build-debug/Makefile&quot;  VERBOSE=1 Get_Next_Line"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mcomet/get_next_line/Get_Next_Line/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mcomet/get_next_line/Get_Next_Line/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mcomet/get_next_line/Get_Next_Line/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Get_Next_Line/fast">
+				<Option output="/Users/mcomet/get_next_line/Get_Next_Line/cmake-build-debug/Get_Next_Line" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mcomet/get_next_line/Get_Next_Line/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/mcomet/get_next_line/Get_Next_Line/."/>
+					<Add directory="/Users/mcomet/get_next_line/Get_Next_Line/libft"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mcomet/get_next_line/Get_Next_Line/cmake-build-debug/Makefile&quot;  VERBOSE=1 Get_Next_Line/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mcomet/get_next_line/Get_Next_Line/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mcomet/get_next_line/Get_Next_Line/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mcomet/get_next_line/Get_Next_Line/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/get_next_line.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/get_next_line.h">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_atoi.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_bzero.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_isalnum.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_isalpha.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_isascii.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_isdigit.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_islower.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_isprint.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_isupper.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_itoa.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_lstadd.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_lstdel.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_lstdelone.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_lstiter.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_lstmap.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_lstnew.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_memalloc.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_memccpy.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_memchr.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_memcmp.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_memcpy.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_memdel.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_memmove.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_memset.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_putchar.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_putchar_fd.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_putendl.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_putendl_fd.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_putnbr.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_putnbr_fd.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_putstr.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_putstr_fd.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_strcat.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_strchr.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_strclr.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_strcmp.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_strcpy.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_strdel.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_strdup.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_strequ.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_striter.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_striteri.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_strjoin.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_strjoinfree.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_strlcat.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_strlen.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_strmap.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_strmapi.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_strncat.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_strncmp.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_strncpy.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_strndup.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_strnequ.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_strnew.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_strnstr.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_strrchr.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_strrev.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_strsplit.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_strstr.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_strsub.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_strtrim.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_swap.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_tolower.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_toupper.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/ft_wrdcnt.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/libft/libft.h">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/main-multiple-fds.c">
+			<Option target="Get_Next_Line"/>
+		</Unit>
+		<Unit filename="/Users/mcomet/get_next_line/Get_Next_Line/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
