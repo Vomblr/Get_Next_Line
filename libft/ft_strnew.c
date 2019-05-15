@@ -6,7 +6,7 @@
 /*   By: mcomet <mcomet@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/10 13:56:29 by mcomet            #+#    #+#             */
-/*   Updated: 2019/04/18 15:39:40 by mcomet           ###   ########.fr       */
+/*   Updated: 2019/05/15 22:42:59 by mcomet           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,6 @@ char	*ft_strnew(size_t size)
 		return (NULL);
 	if (!(str = ft_memalloc(size + 1)))
 		return (NULL);
-	ft_bzero(str, size + 1);
+	//ft_bzero(str, size + 1);
 	return (str);
 }
