@@ -6,14 +6,14 @@
 /*   By: mcomet <mcomet@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/05 16:06:02 by mcomet            #+#    #+#             */
-/*   Updated: 2019/04/29 16:37:01 by mcomet           ###   ########.fr       */
+/*   Updated: 2019/05/16 20:46:22 by mcomet           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
-# define LONG_MAX 9223372036854775807
-# define INT_MIN -2147483648
+# define L_MAX 9223372036854775807
+# define I_MIN -2147483648
 # include <string.h>
 # include <stdlib.h>
 # include <unistd.h>

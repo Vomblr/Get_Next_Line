@@ -6,7 +6,7 @@
 /*   By: mcomet <mcomet@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/29 16:09:06 by mcomet            #+#    #+#             */
-/*   Updated: 2019/04/29 16:36:25 by mcomet           ###   ########.fr       */
+/*   Updated: 2019/05/16 20:13:08 by mcomet           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ static void	free_str(char *s1, char *s2, size_t s)
 	}
 }
 
-char	*ft_strjoinfree(char *s1, char *s2, size_t s)
+char		*ft_strjoinfree(char *s1, char *s2, size_t s)
 {
 	char	*res;
 	size_t	size;

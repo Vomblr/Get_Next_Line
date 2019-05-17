@@ -6,7 +6,7 @@
 /*   By: mcomet <mcomet@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/16 14:21:34 by mcomet            #+#    #+#             */
-/*   Updated: 2019/04/18 16:16:33 by mcomet           ###   ########.fr       */
+/*   Updated: 2019/05/16 18:31:18 by mcomet           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,7 @@ char			*ft_itoa(int n)
 
 	if (n == 0)
 		return (ft_strdup("0"));
-	if (n == INT_MIN)
+	if (n == I_MIN)
 		return (ft_strdup("-2147483648"));
 	if ((sign = n) < 0)
 		n = -n;

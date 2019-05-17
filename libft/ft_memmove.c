@@ -6,7 +6,7 @@
 /*   By: mcomet <mcomet@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/09 13:50:26 by Dmitry            #+#    #+#             */
-/*   Updated: 2019/04/18 13:52:09 by mcomet           ###   ########.fr       */
+/*   Updated: 2019/05/16 21:53:24 by mcomet           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 	unsigned char		*p_dst;
 	const unsigned char	*p_src;
 
-	if (!dst && !src)
+	if (!dst && !src && len == 0)
 		return (NULL);
 	p_dst = (unsigned char*)dst;
 	p_src = (unsigned char*)src;

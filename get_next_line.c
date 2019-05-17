@@ -5,59 +5,55 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: mcomet <mcomet@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/04/25 16:17:58 by mcomet            #+#    #+#             */
-/*   Updated: 2019/05/15 23:02:07 by mcomet           ###   ########.fr       */
+/*   Created: 2019/05/14 17:05:52 by mcomet            #+#    #+#             */
+/*   Updated: 2019/05/17 16:04:38 by mcomet           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
-#include "libft/libft.h"
 
-char	*read_line(int fd, char **str)
+static int	write_line(char **str, char **line, int fd)
 {
-	char	buff[BUFF_SIZE + 1];
-	int		size;
+	char	*tmp;
+	int		i;
 
-	if (fd < 0 || read(fd, buff, 0) < 0 || BUFF_SIZE < 1)
-		return (0);
-	if (str[fd] == NULL)
-		str[fd] = ft_strnew(1);
-	while (!(ft_strchr(str[fd], '\n')))
+	i = 0;
+	while (str[fd][i] != '\n' && str[fd][i] != '\0')
+		i++;
+	if (str[fd][i] == '\n')
 	{
-		if ((size = read(fd, buff, BUFF_SIZE)) < 0)
-			return (0);
-		buff[size] = '\0';
-		str[fd] = ft_strjoinfree(str[fd], buff, 1);
-		if (str[fd][0] == '\0' || size == 0)
-			break ;
+		*line = ft_strsub(str[fd], 0, i);
+		tmp = ft_strdup(str[fd] + i + 1);
+		free(str[fd]);
+		str[fd] = tmp;
 	}
-	return (str[fd]);
+	else if (str[fd][i] == '\0')
+	{
+		*line = ft_strdup(str[fd]);
+		ft_strdel(&str[fd]);
+	}
+	return (1);
 }
 
-int		get_next_line(const int fd, char **line)
+int			get_next_line(const int fd, char **line)
 {
-	static char	*str[1000];
+	static char	*str[MAX_FD];
+	char		buff[BUFF_SIZE + 1];
 	t_line		lin;
 
-	if (!(str[fd] = read_line(fd, str)) || !line)
+	if (fd < 0 || !line || BUFF_SIZE < 1 || read(fd, buff, 0) < 0)
 		return (-1);
-	if ((lin.tmp = ft_strchr(str[fd], '\n')) > 0)
+	while ((lin.ret = read(fd, buff, BUFF_SIZE)) > 0)
 	{
-		lin.ret = lin.tmp - str[fd];
-		if (!(*line = ft_strndup(str[fd], lin.ret)))
-			return (-1);
-		free(str[fd]);
-		str[fd] = ft_strdup(lin.tmp + 1);
-		return (1);
+		buff[lin.ret] = '\0';
+		if (!str[fd])
+			str[fd] = (char*)ft_memalloc(1);
+		lin.tmp = ft_strjoinfree(str[fd], buff, 1);
+		str[fd] = lin.tmp;
+		if (ft_strchr(buff, '\n'))
+			break ;
 	}
-	else
-	{
-		if (!(*line = ft_strdup(str[fd])))
-			return (-1);
-		ft_strdel(&str[fd]);
-		str[fd] = NULL;
-		if (*line[0] == '\0')
-			return (0);
-		return (1);
-	}
+	if (!lin.ret && (!str[fd] || str[fd][0] == '\0'))
+		return (0);
+	return (write_line(str, line, fd));
 }

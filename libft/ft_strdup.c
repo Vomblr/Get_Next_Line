@@ -6,7 +6,7 @@
 /*   By: mcomet <mcomet@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/15 14:48:10 by mcomet            #+#    #+#             */
-/*   Updated: 2019/05/15 19:02:52 by mcomet           ###   ########.fr       */
+/*   Updated: 2019/05/16 19:13:28 by mcomet           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,9 +19,9 @@ char	*ft_strdup(const char *src)
 	size_t	len;
 
 	i = 0;
-	if (!(str = (char*)malloc(sizeof(*str) * (ft_strlen(src) + 1))))
-		return (NULL);
 	len = ft_strlen(src);
+	if (!(str = (char*)malloc(sizeof(*str) * (len + 1))))
+		return (NULL);
 	while (i < len)
 	{
 		str[i] = src[i];

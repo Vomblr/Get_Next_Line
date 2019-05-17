@@ -6,7 +6,7 @@
 /*   By: mcomet <mcomet@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/10 16:35:20 by mcomet            #+#    #+#             */
-/*   Updated: 2019/05/15 15:47:29 by mcomet           ###   ########.fr       */
+/*   Updated: 2019/05/16 19:12:24 by mcomet           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,4 @@ char	*ft_strsub(char const *s, unsigned int start, size_t len)
 	}
 	res[i] = '\0';
 	return (res);
-	//res = ft_strncpy(res, (char*)s + start, len);
-	//return (res);
 }

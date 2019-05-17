@@ -6,7 +6,7 @@
 /*   By: mcomet <mcomet@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/08 15:14:49 by Dmitry            #+#    #+#             */
-/*   Updated: 2019/04/18 15:14:58 by mcomet           ###   ########.fr       */
+/*   Updated: 2019/05/16 18:30:50 by mcomet           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,12 +26,12 @@ static char	*skiptabs(char *str)
 
 static int	check_long(int sign, unsigned long res, char c)
 {
-	if (sign > 0 && (res > LONG_MAX / 10 ||
-		(res == LONG_MAX / 10 && (unsigned long)(c - '0') > LONG_MAX % 10)))
+	if (sign > 0 && (res > L_MAX / 10 ||
+		(res == L_MAX / 10 && (unsigned long)(c - '0') > L_MAX % 10)))
 		return (-1);
-	else if (sign < 0 && (res > LONG_MAX / 10 ||
-		(res == LONG_MAX / 10 &&
-		(unsigned long)(c - '0') > (LONG_MAX % 10 + 1))))
+	else if (sign < 0 && (res > L_MAX / 10 ||
+		(res == L_MAX / 10 &&
+		(unsigned long)(c - '0') > (L_MAX % 10 + 1))))
 		return (0);
 	return (1);
 }
